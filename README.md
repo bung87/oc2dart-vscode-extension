@@ -1,4 +1,13 @@
-# oc2dart
+# oc2dart  
+[![](https://vsmarketplacebadge.apphb.com/version/bung87.oc2dart.svg
+)](https://marketplace.visualstudio.com/items?itemName=bung87.oc2dart)
+[![](https://vsmarketplacebadge.apphb.com/installs-short/bung87.oc2dart.svg
+)](https://marketplace.visualstudio.com/items?itemName=bung87.oc2dart)
+[![](https://vsmarketplacebadge.apphb.com/rating-short/bung87.oc2dart.svg
+)](https://marketplace.visualstudio.com/items?itemName=bung87.oc2dart)
+[![](https://vsmarketplacebadge.apphb.com/trending-monthly/bung87.oc2dart.svg
+)](https://marketplace.visualstudio.com/items?itemName=bung87.oc2dart)
+
 
 vscode extension provide command ,
 convert Objective-C header to dart.
