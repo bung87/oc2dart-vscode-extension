@@ -3,7 +3,7 @@
 	"displayName": "",
 	"publisher": "bung87",
 	"description": "convert Objective-C header to dart",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.43.0"
 	},
@@ -11,13 +11,13 @@
 		"Other"
 	],
 	"repository": {
-        "type": "git",
-        "url": "https://github.com/bung87/oc2dart-vscode-extension.git"
-    },
+		"type": "git",
+		"url": "https://github.com/bung87/oc2dart-vscode-extension.git"
+	},
 	"galleryBanner": {
-        "color": "#60caf6",
-        "theme": "light"
-    },
+		"color": "#60caf6",
+		"theme": "light"
+	},
 	"activationEvents": [
 		"onCommand:extension.convert-oc2dart"
 	],
