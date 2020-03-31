@@ -514,10 +514,10 @@ oauth-sign@~0.9.0:
   resolved "http://r.cnpmjs.org/oauth-sign/download/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU=
 
-oc2dart@^0.0.1:
-  version "0.0.1"
-  resolved "http://r.cnpmjs.org/oc2dart/download/oc2dart-0.0.1.tgz#f967f69832aa13b9227e3ae816ad3f36bdf41fe5"
-  integrity sha1-+Wf2mDKqE7kifjroFq0/Nr30H+U=
+oc2dart@^0.0.2:
+  version "0.0.2"
+  resolved "http://r.cnpmjs.org/oc2dart/download/oc2dart-0.0.2.tgz#8de9d55f921efcdbb8c06f26fed41244c50c3566"
+  integrity sha1-jenVX5Ie/Nu4wG8m/tQSRMUMNWY=
   dependencies:
     rxjs "^6.5.4"
 
