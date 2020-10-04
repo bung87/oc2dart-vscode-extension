@@ -5,7 +5,7 @@
 	"description": "convert Objective-C header to dart",
 	"version": "0.0.6",
 	"engines": {
-		"vscode": "^1.43.0"
+		"vscode": "^1.49.0"
 	},
 	"categories": [
 		"Other"
