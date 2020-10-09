@@ -1,12 +1,12 @@
 import * as vscode from 'vscode';
-import { convert } from 'oc2dart';
+import { convert,transform } from 'oc2dart';
 
 export function activate(context: vscode.ExtensionContext) {
 
     // The command has been defined in the package.json file
     // Now provide the implementation of the command with registerCommand
     // The commandId parameter must match the command field in package.json
-    let disposable = vscode.commands.registerCommand('extension.convert-oc2dart', () => {
+    let disposable = vscode.commands.registerCommand('extension.convert-oc-header2dart', () => {
         let window = vscode.window;
 
         let activeEditor = window.activeTextEditor;
@@ -46,6 +46,34 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     context.subscriptions.push(disposable);
+    // transform code
+    let disposable2 = vscode.commands.registerCommand('extension.convert-oc2dart', () => {
+        let window = vscode.window;
+
+        let activeEditor = window.activeTextEditor;
+        if (!activeEditor) {
+            return;
+        }
+        let document = activeEditor.document;
+
+        if (!document) {
+            return;
+        }
+
+        let range = new vscode.Range(activeEditor.selection.start, activeEditor.selection.end);
+
+        const content = document.getText(range);
+        if (content) {
+            const converted = transform(content);
+            activeEditor.edit(function (editor) {
+                editor.replace(range, converted);
+
+            });
+        }
+
+    });
+
+    context.subscriptions.push(disposable2);
 }
 
 // this method is called when your extension is deactivated

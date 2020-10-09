@@ -2,8 +2,8 @@
 	"name": "oc2dart",
 	"displayName": "",
 	"publisher": "bung87",
-	"description": "convert Objective-C header to dart",
-	"version": "0.0.6",
+	"description": "convert Objective-C to dart",
+	"version": "0.0.7",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
@@ -19,14 +19,19 @@
 		"theme": "light"
 	},
 	"activationEvents": [
+		"onCommand:extension.convert-oc-header2dart",
 		"onCommand:extension.convert-oc2dart"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.convert-oc2dart",
+				"command": "extension.convert-oc-header2dart",
 				"title": "convert Objective-C header to dart"
+			},
+			{
+				"command": "extension.convert-oc2dart",
+				"title": "convert Objective-C code to dart(regex base)"
 			}
 		]
 	},
@@ -44,6 +49,6 @@
 		"typescript": "^3.1.4"
 	},
 	"dependencies": {
-		"oc2dart": "^0.0.5"
+		"oc2dart": "^0.0.7"
 	}
 }
