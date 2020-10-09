@@ -188,10 +188,10 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-oc2dart@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/oc2dart/-/oc2dart-0.0.6.tgz#5f75c9644475ac460225cb7d6ea434bc22402999"
-  integrity sha512-HZhKaHBDMN6uoJlj1imgkw+oTauQatuTwveAdny87CrwIisQG6CfkOkI3eR9Nk0lUUqrJUTLBapLAOf/WyvY6w==
+oc2dart@^0.0.7:
+  version "0.0.7"
+  resolved "https://r.cnpmjs.org/oc2dart/download/oc2dart-0.0.7.tgz#e2edcb50d3c799650b17749891917e720084ab94"
+  integrity sha1-4u3LUNPHmWULF3SYkZF+cgCEq5Q=
   dependencies:
     json-stable-stringify-without-jsonify "^1.0.1"
     rxjs "^6.5.4"
