@@ -3,7 +3,7 @@
 	"displayName": "",
 	"publisher": "bung87",
 	"description": "convert Objective-C to dart",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
